@@ -2,7 +2,7 @@ print("Arranca")
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-driver_path='C:/Users/kevin/Desktop/chromedriver.exe' #Direccion del webdriver
+driver_path='C:/Example/example/example/chromedriver.exe' #Direccion del webdriver
 options = webdriver.ChromeOptions() #Variable de las opciones del webdriver
 #options.headless = True #Para que no se vea la ventana del navegador
 driver = webdriver.Chrome(executable_path=driver_path,options=options) #ejecutar webdriver
